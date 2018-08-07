@@ -48,6 +48,7 @@ import libGlobalsDts from "/js/lib.globals.d.ts!string";
 // Static definitions
 import typescriptDts from "/third_party/node_modules/typescript/lib/typescript.d.ts!string";
 import typesDts from "/js/types.d.ts!string";
+import textEncodingDts from "/js/text_encoding.d.ts!string";
 // tslint:enable:max-line-length
 
 // prettier-ignore
@@ -92,6 +93,7 @@ export const assetSourceCode: { [key: string]: string } = {
   "lib.globals.d.ts": libGlobalsDts,
 
   // Static definitions
+  "text_encoding.d.ts": textEncodingDts,
   "typescript.d.ts": typescriptDts,
   "types.d.ts": typesDts,
 
